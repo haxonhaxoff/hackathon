@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding:0;
+    background: #459af8;
+}
+#controller {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+#roomID {
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24px;
+    background-color: rgba(20,20,20,0);
+    border: 2px solid #fff;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+#roomID:focus {
+    border: 2px solid #222;
+    outline: none;
+}
+p {
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24px;
+    line-height: 4em;
+}
+#key-submit {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+#key-submit:hover {
+    color: #459af8;
+    background: #fff;
+}
+#error {
+    color: #ff0000;
+}

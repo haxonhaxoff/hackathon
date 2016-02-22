@@ -1,0 +1,143 @@
+body, html {
+    background: #459af8;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+h1 {
+    font-family: Oswald;
+    font-size: 72px;
+    text-align: center;
+}
+#form-title {
+    margin-top: 200px;
+    font-family: Oswald;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    margin-top: 750px;
+    font-family: Oswald;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+#room-code {
+    color: #222;
+}
+canvas {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -640px;
+    top: 350px;
+    z-index: 0;
+}
+footer {
+    width: 100%;
+}
+#hackathon {
+    display: block;
+    position: absolute;
+    top: 1275px;
+    margin-bottom: 35px;
+    left: 75px;
+}
+#hax {
+    display: block;
+    position: absolute;
+    top: 1250px;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -60px;
+}
+#summit {
+    display: block;
+    position: absolute;
+    top: 1250px;
+    margin-bottom: 50px;
+    right: 75px;
+}
+#feedback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1245px;
+    background: #459af8;
+    z-index: 1;
+    display: none;
+}
+#feedback form {
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24px;
+    line-height: 2.5em;
+    margin-top: 20px;
+}
+#name, #why, #errors, #enjoy, #why-errors {
+    background-color: rgba(20,20,20,0)!important;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 24px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+#name:focus, #why:focus, #errors:focus, #enjoy:focus, #why-errors:focus {
+    border: 2px solid #a2c2f9;
+    outline: none;
+}
+#submit {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+#submit:hover {
+    background: #fff;
+    color: #222;
+}
+option {
+    color: #000;
+    background: #fff;
+}
+#feedback-button {
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+    margin-left: -74.328px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+#feedback-button:hover {
+    color: #459af8;
+    background: #fff;
+}
+#cancel {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 14px;
+    text-align: right;
+    cursor: pointer;
+    padding: 5px;
+}
+#cancel:hover {
+    color: red;
+}

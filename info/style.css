@@ -1,0 +1,29 @@
+body {
+    background: #459af8;
+    padding: 0;
+    margin: 0;
+}
+#hax {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -640px;
+}
+p {
+    margin: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+    top: 250px;
+    left: 25%;
+    line-height: 4em;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px dashed #fff;
+}
